@@ -1,0 +1,101 @@
+
+
+.search-btn{
+  border: none;
+  background: transparent;
+  margin-right: 30px;
+  
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px 0 20px;
+  padding-bottom: 20px;
+  
+  
+}
+.line{
+  width: 90%;
+  height: 2px;
+  border-radius: 50%;
+  box-shadow: 0 1px 9px 1px rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+
+.header-time{
+  display: flex;
+
+}
+.container{
+  padding: 10px;
+}
+.body{
+  border: 1px dotted rgba(0, 0, 0, 0.3);
+  margin-top: 10%;
+  width: 48%;
+  height: 100v;
+  border-radius: 8px;
+  padding: 5px;
+  
+
+}
+
+.popup{
+  border: none;
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  top: 30%;
+  right: 25%;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  
+  
+}
+.task-input,.task-date{
+margin-top:10% ;
+margin-left: 14px;
+height: 20%;
+width: 90%;
+border-radius: 8px;
+background: #e9e9e9;
+
+}
+
+.submit-task-btn{
+  margin-top: 25px;
+  
+}
+.popup-closer-btn{
+margin-right: 225px;
+}
+.task-container{
+  border: 2px solid rgb(204, 203, 203);
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+  height: 130px;
+  border-radius: 8px;
+  padding: 5px;
+}
+.date{
+background: #ff6e6e;
+width: 100px;
+border-radius: 20px;
+text-align: center;
+color: #720303;
+
+}
+.checked-date{
+  background: #0fa32f;
+width: 100px;
+border-radius: 20px;
+text-align: center;
+color: #032901;
+}
+.checkbox{
+  display: block;
+
+}
